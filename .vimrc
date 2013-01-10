@@ -249,7 +249,7 @@ let Tlist_GainFocus_on_ToggleOpen = 1
 let Tlist_Sort_Type = 'name'
 let Tlist_Exit_OnlyWindow = 1
 map <C-F8> :!ctags -R --sort=yes --c-kinds=+p --c++-kinds=+p --fields=+iaS --extra=+q . <CR>
-nnoremap <leader>tl :Tlist<CR>
+map <C-l>  :Tlist<CR>
 set autochdir
 set tags=tags
 set tags+=~/.vim/tags/cpp
