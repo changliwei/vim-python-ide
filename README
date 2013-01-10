@@ -1,15 +1,16 @@
-Author:changliwei
+author:changliwei
+
 email:changliwei07@gmail.com
 
 This is vim python ide plugins set.
 
-To function well you must put .vim folder togetother with file .vimrc
+To function well you must put .vim folder together with file .vimrc
 
 under your home root directory!
 
-If you want to use taglists and ctags you must install it first
+If you want to use taglists and ctags you must install ctags first
 
-and set ctags path through which "ctags"  match your .vimrc
+and set ctags path through command "which ctags" to match your .vimrc
 
 catgs line  "let Tlist_Ctags_cmd='/usr/bin/ctags' "
 
